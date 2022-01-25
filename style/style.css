@@ -188,7 +188,7 @@ h2 {
     margin-left: 35px;
 }
 
-/*Card uno*/
+/*Card*/
 
 .card {
     width: 30%;
@@ -197,7 +197,6 @@ h2 {
     background-color: white;
     float: left;
     text-align: center;
-
 }
 
 .card-professional {
@@ -212,8 +211,115 @@ h2 {
     line-height: 2em;
 }
 
+.professional {
+    text-align: left;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
 
+h3 {
+    font-size: 25px;
+}
 
+.price {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.mese {
+    margin-top: 20px;
+    color: rgb(148, 145, 145);
+}
+
+.caratteristiche-pacchetto {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.prova30giorni {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.acquista-ora {
+    color: rgb(5, 67, 240);
+}
+
+.riga-corta {
+    width: 20%;
+    margin-top: 30px;
+}
+
+.punti-salienti {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.list-punti-salienti {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.list-punti-salienti li {
+    padding-bottom: 1em;
+}
+
+li span {
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.list-bottom1 {
+    margin-bottom: 152px;
+}
+
+.list-bottom2 {
+    margin-bottom: 80px;
+}
+
+/*Card orizzontale*/
+
+.card-orizzontale {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-top: 50px;
+    border: 1px solid rgb(177, 177, 177);
+    text-align: center;
+}
+
+.card-orizzontale span {
+    line-height: 2em;
+}
+
+.enterprise {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contatta-ufficio {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.enterprise p {
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.btn-float {
+    float: right;
+    margin-top: 10px;
+}
+
+/*Section due*/
 
 
 
