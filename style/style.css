@@ -377,12 +377,11 @@ li span {
 
 .section-tre {
     width: 100%;
-    height: 1000px;
 }
 
 .schede {
     width: 310px;
-    height: 330px;
+    float: left;
 }
 
 .img-scheda {
@@ -401,9 +400,24 @@ li span {
     margin-top: 20px;
     line-height: 1.5em;
 }
+
 .underline {
     text-decoration: underline;
 }
+
+.scheda-1 {
+    margin-right: 35px;
+}
+
+.scheda-2 {
+    margin-right: 35px;
+}
+
+.seconda-riga {
+    margin-top: 60px;
+}
+
+/*SECTION QUATTRO*/
 
 
 
