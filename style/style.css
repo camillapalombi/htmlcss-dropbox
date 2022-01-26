@@ -443,12 +443,13 @@ li span {
 }
 
 .blocco-sinistra {
-    width: 311.8px;  
+    width: 450px;  
+    float: left;
 }
 
 .quadrato {
-    width: 155.9px;
-    height: 155.9px; 
+    width: 225px;
+    height: 225px; 
     float: left;
 }
 
@@ -472,7 +473,7 @@ li span {
 .florida {
     background-image: url(../img/university_of_florida.svg);
     background-color: rgb(67, 139, 221);
-    background-size: 100px;
+    background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -485,22 +486,111 @@ li span {
     background-position: center;
 }
 
+/*Blocco centrale*/
 
+.blocco-centrale {
+    width: 619px;
+    height: 450px;
+    float: left;
+    background-color: rgba(207, 205, 205, 0.2);
+    
+    overflow: auto;
+}
 
+.blocco-centratore {
+    width: 500px;
+    margin: 30px auto;
+}
 
+.designit-black {
+    width: 130px;
+}
 
+.hr-mini {
+    width: 50px;
+    margin-top: 50px;
+}
 
+.blocco-centrale-p {
+    margin-top: 40px;
+    line-height: 1.5em;
+}
 
+.nome-creatore {
+    margin-top: 40px;
+}
 
+/*Blocco 4 quadratini a destra*/
 
+.bicycle {
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-color: rgb(199, 39, 39);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.hearst {
+    background-image: url(../img/hearst_corp.svg);
+    background-color: rgb(115, 168, 199);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.planet {
+    background-image: url(../img/lonely_planet.svg);
+    background-color: rgb(8, 8, 199);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.channel {
+    background-image: url(../img/clear_channel.svg);
+    background-color: rgb(216, 216, 10);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+/*Blocco azzurro a tutta larghezza*/
 
+.blocco-sotto {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(115, 168, 199, 0.6);
+    float: left;
+}
 
+.blocco-sotto-centratore {
+    width: 60%;
+    height: 100px;
+    margin: 70px auto;
+}
 
+.blocco-sotto-titolo {
+    width: 490px;
+    float: left;
+}
+ .blocco-sotto-titolo span {
+     font-size: 35px;
+     color: rgb(110, 0, 61);
+     font-weight: bold;
+     line-height: 1.3em;
+ }
 
+ .blocco-sotto-btn a {
+     text-decoration: none;
+     color: black;
+     background-color: white;
+     padding: 5px 25px;
+ }
+
+ .blocco-sotto-btn {
+     float: right;
+     padding-top: 15px;
+ }
 
 
 
