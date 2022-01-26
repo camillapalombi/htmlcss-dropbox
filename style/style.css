@@ -453,19 +453,36 @@ li span {
 }
 
 .designit {
+    background-image: url(../img/designit.svg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: rgb(148, 230, 148);
+    border: 12px solid rgb(185, 231, 185);
 }
 
 .arizona {
+    background-image: url(../img/arizona_state_university.svg);
     background-color: rgb(107, 29, 29);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .florida {
+    background-image: url(../img/university_of_florida.svg);
     background-color: rgb(67, 139, 221);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .topps {
+    background-image: url(../img/topps.svg);
     background-color: rgb(255, 52, 1);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
