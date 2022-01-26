@@ -419,15 +419,54 @@ li span {
 
 /*SECTION QUATTRO*/
 
+.section-quattro {
+    width: 100%;
+    margin-top: 150px;
+}
 
+.link-clienti {
+    color: rgb(18, 71, 247);
+    font-weight: bold;
+    
+}
 
+.h2-team {
+    margin-bottom: 30px;
+}
 
+/*Blocchi colorati*/
 
+    /*Blocco 4 quadratini a sinistra*/
 
+.container-blocchi {
+    margin-top: 50px;
+}
 
+.blocco-sinistra {
+    width: 311.8px;  
+}
 
+.quadrato {
+    width: 155.9px;
+    height: 155.9px; 
+    float: left;
+}
 
+.designit {
+    background-color: rgb(148, 230, 148);
+}
 
+.arizona {
+    background-color: rgb(107, 29, 29);
+}
+
+.florida {
+    background-color: rgb(67, 139, 221);
+}
+
+.topps {
+    background-color: rgb(255, 52, 1);
+}
 
 
 
