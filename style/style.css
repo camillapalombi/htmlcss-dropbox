@@ -151,6 +151,8 @@ svg:hover {
 .sezione-uno {
     width: 100%;
     height: 1400px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .sezione-uno::after {
@@ -161,9 +163,8 @@ svg:hover {
 
 .centratore {
     width: 1000px;
-    height: 1200px;
     background-color: white;
-    margin: 200px auto;
+    margin: auto;
 }
 
 h2 {
@@ -326,7 +327,7 @@ li span {
 
 .sezione-due {
     width: 100%;
-    height: 1400px;
+    height: 500px;
 }
 
 .partner {
@@ -371,6 +372,66 @@ li span {
     border-top: 2px solid rgb(58, 58, 58);
     padding: .5em 1.5em;
 }
+
+/*SECTION TRE*/
+
+.section-tre {
+    width: 100%;
+    height: 1000px;
+}
+
+.schede {
+    width: 310px;
+    height: 330px;
+}
+
+.img-scheda {
+    width: 310px;
+    height: 300px;
+    object-fit: contain
+}
+
+.scheda-title {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.scheda-didascalia {
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+.underline {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
