@@ -8,6 +8,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
     font-size: 15px;
+    
 }
 
 /*NAV BAR*/
@@ -60,7 +61,6 @@ nav {
 
 .navlink li a:hover {
     border-bottom: 3px solid black;
-    background-color: rgba(240, 240, 240,0.2);
     
 }
 
@@ -88,6 +88,7 @@ nav {
 
 .button a:hover {
     box-shadow: 5px 6px rgba(37, 37, 37, 0.4);
+    background-color: rgb(52, 150, 241);
 }
 
 /*HEADER!!*/
@@ -207,6 +208,8 @@ h2 {
     margin-right: 5%;
 }
 
+
+
 .card span {
     line-height: 2em;
 }
@@ -321,14 +324,53 @@ li span {
 
 /*Section due*/
 
+.sezione-due {
+    width: 100%;
+    height: 1400px;
+}
 
+.partner {
+    width: 50%;
+    float: left;
+}
 
+.testo-partner {
+    width: 40%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
 
+.img-partner {
+    width: 500px;
+    height: 400px;
+    float: left;
+}
 
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
 
-
-
-
+.testo-partner p {
+    line-height: 1.8em;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.btn-partner {
+    margin-top: 35px;
+}
+.btn-partner a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    border-right: 1px solid rgb(58, 58, 58);
+    border-left: 1px solid rgb(58, 58, 58);
+    border-top: 2px solid rgb(58, 58, 58);
+    padding: .5em 1.5em;
+}
 
 
 
