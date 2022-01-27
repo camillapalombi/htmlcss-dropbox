@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="style/style.css">
+    <!--Font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!--NAV BAR-->
-    <nav>
+    <!--FIXED NAV BAR-->
+    <nav class="clearfix">
 
         <!--logo-->
         <div class="logo-dropbox">
@@ -78,12 +79,13 @@
 
     </header>
 
+
     <!--MAIN-->
     <main>
 
         <!--SECTION UNO-->
 
-        <section class="sezione-uno" id="section-1">
+        <section class="sezione-uno clearfix" id="section-1">
 
             <div class="centratore">
 
@@ -105,7 +107,7 @@
                     <i class="far fa-user"></i>
                     <span>Singolo</span>
                     <hr>
-                    <div class="professional">
+                    <div class="container-pacchetti">
                         <h3>Professional</h3>
                         <div class="price">19,99€</div>
                         <div class="mese">/mese</div>
@@ -144,7 +146,7 @@
                     <span>Team</span>
                     <hr>
 
-                    <div class="professional">
+                    <div class="container-pacchetti">
                         <h3>Standard</h3>
                         <div class="price">19,99€</div>
                         <div class="mese">/utente/mese, a partire da 3 utenti</div>
@@ -184,7 +186,7 @@
                     <span>Team</span>
                     <hr>
 
-                    <div class="professional">
+                    <div class="container-pacchetti">
                         <h3>Advanced</h3>
                         <div class="price">19,99€</div>
                         <div class="mese">/mese</div>
@@ -225,7 +227,7 @@
                     <span>Team</span>
                     <hr>
 
-                    <div class="enterprise">
+                    <div class="container-enterprise">
 
                         <div class="button btn-float">
                             <a href="#!">Contatta l'ufficio vendite</a>
@@ -244,6 +246,7 @@
             </div>
 
         </section>
+
 
         <!--SECTION DUE-->
 
@@ -279,9 +282,10 @@
 
         </section>
 
+
         <!--SECTION TRE-->
 
-        <section class="sezione-tre">
+        <section class="section-tre">
 
             <div class="centratore">
 
@@ -375,6 +379,7 @@
 
         </section>
 
+
         <!--SECTION QUATTRO-->
 
         <section class="section-quattro">
@@ -389,33 +394,20 @@
 
             <!--Quadrati colorati-->
 
-            <div class="container-blocchi">
+            <div class="clearfix">
 
-                <div class="clearfix">
+                <div class="container-blocchi">
 
                     <!--Blocco 4 quadratini a sinistra-->
-                    <div class="blocco-sinistra">
+                    <div class="blocco-sinistra-destra">
 
-                        <div class="quadrato designit">
+                        <div class="quadrato designit"></div>
 
+                        <div class="quadrato arizona"></div>
 
-                        </div>
+                        <div class="quadrato florida"></div>
 
-                        <div class="quadrato arizona">
-
-
-                        </div>
-
-                        <div class="quadrato florida">
-
-
-                        </div>
-
-                        <div class="quadrato topps">
-
-
-                        </div>
-
+                        <div class="quadrato topps"></div>
 
                     </div>
 
@@ -438,28 +430,15 @@
 
                     <!--Blocco 4 quadratini a destra-->
 
-                    <div class="blocco-sinistra">
+                    <div class="blocco-sinistra-destra">
 
-                        <div class="quadrato bicycle">
+                        <div class="quadrato bicycle"></div>
 
+                        <div class="quadrato hearst"></div>
 
-                        </div>
+                        <div class="quadrato planet"></div>
 
-                        <div class="quadrato hearst">
-
-
-                        </div>
-
-                        <div class="quadrato planet">
-
-
-                        </div>
-
-                        <div class="quadrato channel">
-
-
-                        </div>
-
+                        <div class="quadrato channel"></div>
 
                     </div>
 
@@ -491,15 +470,14 @@
 
         </section>
 
+
         <!--SECTION CINQUE-->
 
         <section class="section-cinque">
 
             <div class="centratore">
 
-                <div class="domande-freq">
-                    Domande frequenti 
-                </div>
+                <div class="domande-freq">Domande frequenti</div>
 
                 <!--Blocco domande/risposte UNO-->
                 <div class="blocco-domande-risposte primo-blocco">
@@ -662,6 +640,7 @@
 
     </main>
 
+
     <!--FOOTER-->
     <footer>
 
@@ -746,7 +725,7 @@
                     <i class="fas fa-globe-americas"></i>
                     <span>Italiano</span>
                     <i class="fas fa-sort-up"></i>
-                    </a>
+                </a>
 
             </div>
 
