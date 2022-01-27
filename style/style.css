@@ -38,7 +38,7 @@ nav {
     padding-right: 10px;
     float: left;
     line-height: 4em;
-    padding-top: 7px;
+    padding-top: 10px;
 }
 
 /* Liste nav bar*/
@@ -48,13 +48,13 @@ nav {
     float: left;
 }
 
-.navlink li {
+.list-item {
     display: inline-block;
     margin-left: 35px;
     vertical-align: middle;
 }
 
-.navlink li a {
+.list-links {
     text-decoration: none;
     color: black;
     font-size: 16px;
@@ -69,7 +69,63 @@ nav {
     margin-left: 300px;
 }
 
-.navlink li a:hover {
+
+
+
+
+/*Tentativo di creazione manu a tendina*/
+.list-posizionata {
+    position: relative;
+}
+
+.menu-tendina {
+	display:inline-block;
+	list-style: none;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+    top: 50px;
+	left: 0;
+	z-index:201;
+    background-color: rgb(241, 240, 240);
+    width: 70px;
+    height: 87px;
+    border: 1px solid black;
+}
+
+.list-posizionata:hover .menu-tendina {
+    opacity: 1;
+	visibility: visible;
+}
+
+.menu-tendina li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.tendina-link {
+    margin-top: 10px;
+
+}
+.tendina-link-1:hover {
+    background-color: rgb(68, 142, 253);
+}
+.tendina-link:hover {
+    background-color: rgb(68, 142, 253);
+}
+
+/*Fine tentativo*/
+
+
+
+
+
+
+.list-links:hover {
     border-bottom: 3px solid black;
     
 }
@@ -88,7 +144,7 @@ nav {
 }
 
 .inizia {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 80px;
 }
 
