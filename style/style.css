@@ -69,11 +69,12 @@ nav {
     margin-left: 300px;
 }
 
+.list-links:hover {
+    border-bottom: 3px solid black;
+}
 
 
-
-
-/*Tentativo di creazione manu a tendina*/
+/*menu a tendina*/
 .list-posizionata {
     position: relative;
 }
@@ -84,13 +85,15 @@ nav {
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
-    top: 50px;
+    top: 72px;
 	left: 0;
 	z-index:201;
-    background-color: rgb(241, 240, 240);
-    width: 70px;
+    background-color: white;
+    width: 150px;
     height: 87px;
-    border: 1px solid black;
+    border: 1px solid rgb(192, 192, 192);
+    text-align: left;
+    font-weight: bold;
 }
 
 .list-posizionata:hover .menu-tendina {
@@ -109,7 +112,11 @@ nav {
 
 .tendina-link {
     margin-top: 10px;
+    padding-left: 8px;
+}
 
+.tendina-link-1 {
+    padding-left: 8px;
 }
 .tendina-link-1:hover {
     background-color: rgb(68, 142, 253);
@@ -118,17 +125,9 @@ nav {
     background-color: rgb(68, 142, 253);
 }
 
-/*Fine tentativo*/
+/*Fine menu a tendina*/
 
 
-
-
-
-
-.list-links:hover {
-    border-bottom: 3px solid black;
-    
-}
 
 /*bottone inizia*/
 .button {
@@ -480,7 +479,7 @@ li span {
 /*SECTION QUATTRO*/
 
 .section-quattro {
-    width: 100%;
+    min-width: 100%;
     margin-top: 150px;
 }
 
@@ -742,12 +741,6 @@ footer {
     padding-top: 80px;
 }
 
-.container-lists::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 .footer-list {
     list-style: none;
     color: white;
@@ -759,11 +752,16 @@ footer {
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 20px;
+    color: rgb(247, 229, 195);
 }
 
 .footer-list li a {
     text-decoration: none;
     color: white;
+}
+
+.footer-list li a:hover {
+    text-decoration: underline;
 }
 
 .footer-list-2 {
@@ -792,4 +790,3 @@ footer hr {
     vertical-align: bottom;
     padding-left: 5px;
 }
-
